@@ -11,7 +11,18 @@ require (
 	github.com/multiformats/go-multiaddr v0.9.0
 )
 
-require github.com/libp2p/zeroconf/v2 v2.2.0 // indirect
+require (
+	github.com/gdamore/encoding v1.0.0 // indirect
+	github.com/gdamore/tcell/v2 v2.6.0 // indirect
+	github.com/hashicorp/golang-lru/v2 v2.0.2 // indirect
+	github.com/libp2p/go-libp2p-pubsub v0.9.3 // indirect
+	github.com/libp2p/zeroconf/v2 v2.2.0 // indirect
+	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
+	github.com/mattn/go-runewidth v0.0.14 // indirect
+	github.com/rivo/tview v0.0.0-20230406072732-e22ce9588bb4 // indirect
+	github.com/rivo/uniseg v0.4.3 // indirect
+	golang.org/x/term v0.6.0 // indirect
+)
 
 require (
 	github.com/benbjohnson/clock v1.3.0 // indirect; indirect≠
