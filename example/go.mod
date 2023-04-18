@@ -11,8 +11,10 @@ require (
 	github.com/multiformats/go-multiaddr v0.9.0
 )
 
+require github.com/libp2p/zeroconf/v2 v2.2.0 // indirect
+
 require (
-	github.com/benbjohnson/clock v1.3.0 // indirect≠
+	github.com/benbjohnson/clock v1.3.0 // indirect; indirect≠
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/containerd/cgroups v1.1.0 // indirect

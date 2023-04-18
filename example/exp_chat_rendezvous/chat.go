@@ -96,8 +96,7 @@ func main() {
 		return
 	}
 
-	// libp2p.New constructs a new libp2p Host. Other options can be added
-	// here.
+	// libp2p.New constructs a new libp2p Host. Other options can be added here.
 	host, err := libp2p.New(libp2p.ListenAddrs([]multiaddr.Multiaddr(config.ListenAddresses)...))
 	if err != nil {
 		panic(err)
@@ -135,7 +134,7 @@ func main() {
 		go func() {
 			defer wg.Done()
 			if err := host.Connect(ctx, *peerinfo); err != nil {
-				logger.Warning(err)
+				logger.Warn(err)
 			} else {
 				logger.Info("Connection established with bootstrap node:", *peerinfo)
 			}
