@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/libp2p/go-libp2p"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/libp2p/go-libp2p"
 )
 
 func main() {
